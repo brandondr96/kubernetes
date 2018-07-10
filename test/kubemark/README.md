@@ -7,8 +7,9 @@
 ### Steps to run kubemark:
 1. Clone this repository: git@github.com:brandondr96/kubernetes.git
 2. Switch to the branch "stat_tester".
-3. Run ```bash iks-start-kubemark.sh```. This script will create all necessary resources, clusters, and namespaces for kubemark to run.
-4. Respond to the prompts as desired.
+3. Edit the "iks/config.sh" file to contain the desired values.
+4. Run ```bash iks-start-kubemark.sh```. This script will create all necessary resources, clusters, and namespaces for kubemark to run.
+5. Respond to the prompts as desired.
 
 *__Note__: If you want to use existing clusters, they must be created beforehand. When prompted, enter the paths for these clusters.*
 ### Steps to stop kubemark:
